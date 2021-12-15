@@ -1,12 +1,11 @@
 import Home from "./components/Home";
 import Message from "./components/Message";
-import Button from "./components/classvshooks/Button";
-import BrokenButton from "./components/classvshooks/BrokenButton";
+import Counter from "./components/classvshooks/Counter";
 
 function App() {
   return (
   <div className="container">
-    <BrokenButton></BrokenButton>
+    <Counter></Counter>
   </div>
   );
 }
