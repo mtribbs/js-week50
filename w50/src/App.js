@@ -1,9 +1,10 @@
 import Home from "./components/Home";
+import Message from "./components/Message";
 
 function App() {
   return (
-  <div>
-    <Home></Home>
+  <div className="container">
+    <Message greet="Hello" who="Therese"></Message>
   </div>
   );
 }
