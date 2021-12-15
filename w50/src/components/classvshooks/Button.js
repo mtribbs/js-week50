@@ -1,0 +1,16 @@
+//This is the old way
+//Class component
+
+import { Component } from "react";
+
+class Button extends Component {
+    render() {
+        return <button onClick={function () {
+            alert("CLICKED!")
+        }}>Click me!</button>;
+    }
+}
+
+export default Button;
+
+// this is a stateless component
