@@ -1,0 +1,5 @@
+"files.associations": {
+    "*.js": "javascriptreact"
+    "workbench.colorTheme": "Default High Contrast",
+    "editor.bracketPairColorization.enabled": true
+    };
