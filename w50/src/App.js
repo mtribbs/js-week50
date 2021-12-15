@@ -1,11 +1,12 @@
 import Home from "./components/Home";
 import Message from "./components/Message";
 import Counter from "./components/classvshooks/Counter";
+import Clicker from "./components/classvshooks/Clicker";
 
 function App() {
   return (
   <div className="container">
-    <Counter></Counter>
+    <Clicker></Clicker>
   </div>
   );
 }
