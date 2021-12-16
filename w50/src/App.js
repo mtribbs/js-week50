@@ -1,17 +1,30 @@
-import Home from "./components/Home";
-import Message from "./components/Message";
-import Counter from "./components/classvshooks/Counter";
-import Clicker from "./components/classvshooks/Clicker";
+import { useState } from "react";
+import Tag from "./components/Tag";
+import "./index.css";
+
+const initialNames = [
+  {firstName: "Dourboum", lastName: "Bloodgranite"},
+  {firstName: "Alforhomli", lastName: "Bitterhide"},
+  {firstName: "Rugnak", lastName: "Ambershoulder"},
+  {firstName: "Modgreat", lastName: "Graygut"},
+  {firstName: "Yubroc", lastName: "Woldmace"},
+]
 
 function App() {
+  const [names, setNames] = useState(initialNames);
+
   return (
   <div className="container">
-    <Clicker></Clicker>
+    <h1>List of names</h1>
+    {names.map((v, i) => {
+      return (
+        <Tag key={i} firstName={v.firstName} lastName={v.lastName}></Tag>
+      )
+    })}
   </div>
   );
 }
 
 export default App;
 
-{/* <Message greet="Hello" who="Therese"></Message>
-    <Home></Home> */}
+

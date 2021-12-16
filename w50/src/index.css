@@ -66,3 +66,22 @@ footer {
 .name {
   color: purple;
 }
+
+/* .style {
+  color: blueviolet;
+  border: 1px solid cornflowerblue;
+  padding: 0.5rem;
+  margin: 1rem;
+} */
+
+.nametag {
+  margin: 1rem;
+  width: 14rem;
+  text-align: center; 
+  font-size: 1.2rem; 
+  font-weight: 500;  
+  padding: 0.5rem;  
+  border: 3px solid black;
+  -webkit-box-shadow: -2px 2px 8px -1px #000000;
+  box-shadow: -2px 2px 8px -1px #000000;
+  }
